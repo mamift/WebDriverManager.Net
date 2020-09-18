@@ -1,18 +1,19 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.0</TargetFramework>
+        <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageVersion>2.9.3</PackageVersion>
         <Title>WebDriverManager.Net</Title>
-        <Description>Automatic Selenium WebDriver binaries management for .Net</Description>
+        <Description>Automatic Selenium WebDriver binaries management for .Net (built for .NET Framework 4.6.2, which supports .NET Standard 2).</Description>
         <Copyright>© 2016-2020, Aliaksandr Rasolka. All Rights Reserved.</Copyright>
-        <PackageProjectUrl>https://github.com/rosolko/WebDriverManager.Net</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/mamift/WebDriverManager.Net</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/rosolko/WebDriverManager.Net/blob/master/LICENSE</PackageLicenseUrl>
-        <RepositoryUrl>https://github.com/rosolko/WebDriverManager.Net</RepositoryUrl>
+        <RepositoryUrl>https://github.com/mamift/WebDriverManager.Net</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>Selenium WebDriver ChromeDriver EdgeDriver InternetExplorerDriver MarionetteDriver OperaDriver PhantomJsDriver</PackageTags>
         <PackageReleaseNotes>Fix geckowebdriver download</PackageReleaseNotes>
+        <PackageId>WebDriverManager-net462</PackageId>
     </PropertyGroup>
 
     <ItemGroup>
